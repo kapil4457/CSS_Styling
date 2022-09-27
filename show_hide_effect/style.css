@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family : "Georama" , sans-serif;
+}
+
+body{
+
+    height:100vh;
+    display: grid;
+    place-items:center;
+    background:#acd2fb
+}
+
+.main-div{
+    width:600px;
+    height:300px;
+    padding:30px;
+    background-color:#1380f5;
+    border-radius: 10px;
+    color:white;
+    clip-path: circle(23.2% at 100% 0);
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.main-div h1{
+    margin:30px 0;
+    color:rgb(24,241,158);
+}
+
+.main-div p{
+    color:#fff;
+    line-height:150%;
+}
+
+.main-div h3{
+    color:#fff;
+    margin-top:20px;
+}
+
+.main-div:hover{
+    clip-path: circle(100%);
+
+}
