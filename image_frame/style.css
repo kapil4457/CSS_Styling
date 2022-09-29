@@ -41,3 +41,7 @@
 .blend{
     mix-blend-mode: multiply;
 }
+.design  > img{
+    object-fit: cover;
+    box-shadow: 0 0 20px #bac3ac;
+}
